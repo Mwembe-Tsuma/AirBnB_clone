@@ -21,6 +21,8 @@
     	border: 1px solid #DDDDDD;
     	border-radius: 4px;
     	position: relative;
+	display: flex;
+	align-items: center;
 }
 
 .locations {border-right: 1px solid #DDDDDD;}
