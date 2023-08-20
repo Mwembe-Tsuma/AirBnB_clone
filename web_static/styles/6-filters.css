@@ -7,7 +7,7 @@
 	border: 0px;
 	border-radius: 4px;
 	text-align: center;
-	margin-right: 30px;
+	right: 30px;
 	top: 15%;
 	position: absolute;
 }
@@ -27,23 +27,21 @@
 
 .locations {border-right: 1px solid #DDDDDD;}
 
-.locations .amenities {
+.filters>.locations, .filters>.amenities {
 	height: 100%;
 	width: 25%;
 	position: relative;
-	display: inline-block;
-	top: 0%;
-	justify-content: center;
+	display: flex;
+	padding: 15px, 40px;
 	flex-direction: column;
+	box-sizing: border-box;
 }
 
 .filters h3 {
- 	top: 15%;
 	font-weight: 600;
 	margin: 2px 15px;
 }
 .filters h4 {
-	top: 15%;
 	font-weight: 400;
 	font-size: 14px;
 	margin: 2px 15px;
