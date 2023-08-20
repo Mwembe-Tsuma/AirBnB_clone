@@ -6,7 +6,6 @@
 	width: 20%;
 	border: 0px;
 	border-radius: 4px;
-	text-align: center;
 	right: 30px;
 	top: 15%;
 	position: absolute;
@@ -73,7 +72,6 @@
 div:hover > .popover {
 	display: block;
 	cursor: pointer;
-	z-index: 100;
 }
 
 .popover li {
